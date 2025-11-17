@@ -1,0 +1,19 @@
+1.	CREATE TABLE KhachHang (
+2.	    MaKH INT,
+3.	    HoTen VARCHAR(255),
+4.	    Email VARCHAR(255),
+5.	    SoDienThoai VARCHAR(15),
+6.	    NgayDangKy DATE
+7.	);
+8.	INSERT INTO KhachHang (MaKH, HoTen, Email, SoDienThoai, NgayDangKy) VALUES
+9.	(1, 'Nguyễn Văn An', 'an.nguyen@email.com', '0901234567', '2023-10-25'),
+10.	(2, 'Trần Thị Bình', 'binh.tran@email.com', '0912345678', '2023-10-26'),
+11.	(3, 'Lê Minh Cường', 'cuong.le@email.com', '0987654321', '2023-11-01');
+12.	
+13.	insert into KhachHang (MaKH, HoTen, Email, SoDienThoai, NgayDangKy)
+14.	values 
+15.	(4,'Phạm Thị Dung', 'dung.pham@email.com','0934567890','2023-11-02'),
+16.	(5, 'Hoàng Văn Em','em.hoang@email.com','0945678901','2023-11-03');
+17.	
+18.	select * from KhachHang;
+19.	select makh, email from KhachHang;
